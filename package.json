@@ -1,0 +1,19 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "pythagoras calculator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.7"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "electron-prebuilt": "^1.4.13",
+    "python-shell": "^3.0.0"
+  }
+}
