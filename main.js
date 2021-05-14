@@ -9,10 +9,10 @@ const BrowserWindow = electron.BrowserWindow
 app.on('ready', function(){
     //criando a janela
     let calculateWindow = new BrowserWindow({
-        width: 400,
-        height: 650,
-        maxHeight: 650,
-        maxWidth: 600,
+        width: 500,
+        height: 630,
+        maxHeight: 630,
+        maxWidth: 500,
         //for frameless window
         frame: false, 
         titleBarStyle: 'hidden',

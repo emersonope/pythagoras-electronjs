@@ -3,9 +3,6 @@ body {
     margin: 0;
     outline: none;
     cursor: default;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
 }
 
 
@@ -28,8 +25,7 @@ body {
     color: #aaa;
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    
 }
 
 .calculator-btns-title-bar {
@@ -54,8 +50,7 @@ body {
     color: rgb(146, 146,146);
     font-size: medium;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    
 }
 
 .calculator-minimize-btn:hover {
@@ -76,8 +71,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(146, 146,146);
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    
 }
 .calculator-close-btn:hover {
     background-color: rgb(252, 39, 39);
@@ -115,6 +109,14 @@ body {
 
 .myBtn {
     width: 83px;
+}
+
+#errorMessage {
+    width: 400px;
+    height: 30px;
+    color: #3879BD;
+    font-size: calc(5px + 6px);
+    text-align: center;
 }
 /* card end */
 /*input end*/

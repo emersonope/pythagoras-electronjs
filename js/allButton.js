@@ -1,3 +1,22 @@
+const remote = require('electron'). remote
+
+document.getElementById('calculator-minimize-btn').addEventListener("click", 
+function(e) {  
+
+    var window = remote.getCurrentWindow();
+    window.minimize();
+
+})
+
+document.getElementById('calculator-close-btn').addEventListener("click", 
+function(e) {  
+
+    var window = remote.getCurrentWindow();
+    window.close();
+
+})
+
+
 
 document.getElementById('clearButton').addEventListener("click", 
 function clearData() { 
@@ -10,3 +29,4 @@ function clearData() {
     document.getElementById('area').value = "";
     document.getElementById('errorMessage').innerHTML = "";
 })
+
